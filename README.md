@@ -64,12 +64,11 @@ It supports standardized, secure, and scalable deployment of:
 - 🧱 Hub & Spoke Network Topology
 
 ---
-
 ## 🧭 Architecture
 
-> A conceptual architecture diagram highlighting the design areas covered by the Azure landing zones Terraform module:
+A conceptual architecture diagram highlighting the design areas covered by the Azure landing zones Terraform module:
 
-![ALZ Architecture](https://aka.ms/alz/architecture-diagram)
+![ALZ Architecture](./assets/alz-architecture.png)
 
 ---
 
