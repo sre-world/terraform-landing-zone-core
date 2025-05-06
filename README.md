@@ -29,16 +29,26 @@ Refer to the [Wiki](https://github.com/sre-world/terraform-landing-zone-core/wik
 
 ---
 
-## ⚠️ Upcoming Breaking Changes (Q4 2024)
+# ⚠️ Breaking Changes Notice
 
-> Starting Q4 2024, the following **module defaults** will change to deploy **zone-redundant SKUs** by default:
+## Effective: Q4 2024 (Now Active)
+
+As of Q4 2024, this module now **defaults to deploying zone-redundant SKUs** for the following Azure resources:
 
 - Azure Firewall
 - Public IP
 - Virtual Network Gateway
 
-📢 Guidance will be published to help prevent unintended re-deployments of existing resources.
+## 🔍 What This Means
 
+- Existing configurations without explicit settings may now deploy **ZRS (Zone-Redundant SKU)** variants.
+- This could cause **re-deployment of existing resources** if state drift occurs.
+
+## ✔️ What You Should Do
+
+- **Explicitly set** SKUs in your configuration to match your environment if you want to prevent changes.
+- Use `terraform plan` carefully before applying in production.
+- Refer to the [Migration Guide](https://aka.ms/alz/tf/migration-guide) for mitigation steps.
 ---
 
 ## 📌 Overview
