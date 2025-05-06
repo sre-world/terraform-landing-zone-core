@@ -10,45 +10,48 @@
 
 | Release | Issue Resolution Time | Open Issues % | OpenSSF Scorecard |
 |---------|------------------------|---------------|--------------------|
-| ![GitHub release](https://img.shields.io/github/v/release/sre-world/terraform-landing-zone-core) | ⏱️ Avg: X days | ✅ Y% Closed | 🔒 Z/10 |
+| ![GitHub release](https://img.shields.io/github/v/release/sre-world/terraform-landing-zone-core) | ⏱️ Avg: _X days_ | ✅ _Y% Closed_ | 🔒 _Z/10_ |
 
 ---
 
 ## 📘 Documentation
 
-> Please refer to the [Wiki](https://github.com/sre-world/terraform-landing-zone-core/wiki) for complete usage, configuration, and customization guidance.
+Refer to the [Wiki](https://github.com/sre-world/terraform-landing-zone-core/wiki) for full details:
 
 - [🏠 Home](https://github.com/sre-world/terraform-landing-zone-core/wiki)
 - [📖 User Guide](https://github.com/sre-world/terraform-landing-zone-core/wiki/User-Guide)
 - [💡 Examples](https://github.com/sre-world/terraform-landing-zone-core/wiki/Examples)
-- [❓ FAQ](https://github.com/sre-world/terraform-landing-zone-core/wiki/Frequently-Asked-Questions)
+  - [Example 1: Minimal Configuration](https://github.com/sre-world/terraform-landing-zone-core/wiki/Example-1-Minimal-Configuration)
+  - [Example 2: Archetype Overrides](https://github.com/sre-world/terraform-landing-zone-core/wiki/Example-2-Archetype-Overrides)
+  - [Example 3: Subscription Onboarding](https://github.com/sre-world/terraform-landing-zone-core/wiki/Example-3-Subscription-Onboarding)
+- [❓ Frequently Asked Questions](https://github.com/sre-world/terraform-landing-zone-core/wiki/Frequently-Asked-Questions)
 - [🛠️ Troubleshooting](https://github.com/sre-world/terraform-landing-zone-core/wiki/Troubleshooting)
 
 ---
 
 ## ⚠️ Upcoming Breaking Changes (Q4 2024)
 
-The following **module defaults will change** to deploy **zone redundant SKUs** by default:
+> Starting Q4 2024, the following **module defaults** will change to deploy **zone-redundant SKUs** by default:
 
 - Azure Firewall
 - Public IP
 - Virtual Network Gateway
 
-> 📢 Detailed migration guidance will be published to avoid redeploying existing resources.
+📢 Guidance will be published to help prevent unintended re-deployments of existing resources.
 
 ---
 
 ## 📌 Overview
 
-This module is part of the enterprise Azure platform rollout and implements core components of the [Azure Landing Zones](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/landing-zones/) using [Terraform](https://www.terraform.io/).
+This Terraform module helps deploy **Azure Landing Zones** based on Microsoft’s [Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/landing-zones/) and **Enterprise-Scale architecture**.
 
-It supports standardized deployment of:
+It supports standardized, secure, and scalable deployment of:
 
-- Management Groups & Hierarchies
-- Azure Policies & Blueprints
-- Diagnostic Settings
-- Platform Logging & Monitoring
-- Core Networking Architecture (Hub/Spoke ready)
+- 🌐 Management Group Hierarchies
+- 📜 Azure Policies and Initiatives
+- 🔒 Diagnostic Settings and Logging
+- 📊 Log Analytics and Monitoring Integrations
+- 🧱 Hub & Spoke Network Topology
 
 ---
 
