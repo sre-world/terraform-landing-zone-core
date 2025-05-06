@@ -68,7 +68,7 @@ It supports standardized, secure, and scalable deployment of:
 
 A conceptual architecture diagram highlighting the design areas covered by the Azure landing zones Terraform module:
 
-![ALZ Architecture](https://raw.githubusercontent.com/sre-world/terraform-landing-zone-core/main/assets/alz-architecture.png)
+![ALZ Architecture](./assets/alz-architecture.png)
 
 ---
 
